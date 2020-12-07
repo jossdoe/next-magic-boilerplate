@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import Router from 'next/router';
-import { useUser } from '../lib/hooks';
-import Layout from '../components/layout';
-import Form from '../components/form';
+import { useUser } from 'auth/hooks';
+import Layout from 'components/Layout';
+import Form from 'components/Form';
 
 import { Magic } from 'magic-sdk';
 

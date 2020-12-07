@@ -1,5 +1,5 @@
-import { useUser } from '../lib/hooks';
-import Layout from '../components/layout';
+import { useUser } from 'auth/hooks';
+import Layout from 'components/Layout';
 
 const Home = () => {
   const user = useUser();
