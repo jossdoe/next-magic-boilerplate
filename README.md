@@ -1,6 +1,6 @@
-# Next.js/Magic Auth Template
+# Next.js App Template
 
-This repo is based on the official Magic example repo by Vercel/Next.js.
+This repo is based on the official [Magic example repo](https://github.com/vercel/next.js/tree/canary/examples/with-magic) by Vercel/Next.js.
 
 Additions in this template:
 
