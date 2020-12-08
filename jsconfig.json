@@ -5,8 +5,10 @@
       "@auth/*": ["auth/*"],
       "@components/*": ["components/*"],
       "@context/*": ["context/*"],
+      "@models/*": ["models/*"],
       "@public/*": ["public/*"],
-      "@style/*": ["style/*"]
+      "@style/*": ["style/*"],
+      "@utils/*": ["utils/*"]
     }
   }
 }
