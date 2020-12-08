@@ -1,3 +1,5 @@
+import { CounterProvider } from '@context/CounterContext';
+
 import { ThemeProvider } from 'styled-components';
 import GlobalStyle from '@style/GlobalStyle';
 import theme from '@style/theme';
@@ -5,10 +7,12 @@ import theme from '@style/theme';
 export default function App({ Component, pageProps }) {
   return (
     <>
-      <GlobalStyle />
-      <ThemeProvider theme={theme}>
-        <Component {...pageProps} />
-      </ThemeProvider>
+      <CounterProvider>
+        <ThemeProvider theme={theme}>
+          <GlobalStyle />
+          <Component {...pageProps} />
+        </ThemeProvider>
+      </CounterProvider>
     </>
   );
 }
