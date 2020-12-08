@@ -4,6 +4,7 @@
     "paths": {
       "@auth/*": ["auth/*"],
       "@components/*": ["components/*"],
+      "@context/*": ["context/*"],
       "@public/*": ["public/*"],
       "@style/*": ["style/*"]
     }
