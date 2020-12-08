@@ -12,7 +12,7 @@ Additions in this template:
 
 ## Getting started
 
-- Clone the repo or use the template function on GitHub
+- Use the template function on GitHub and clone your repo
 - Run `npm i`
 - Create a file at the root and name it `.env.local`
 - Populate it with these variables:
