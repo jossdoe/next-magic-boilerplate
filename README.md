@@ -9,3 +9,22 @@ Additions in this template:
 - Optimized Context-pattern with useReducer included
 - Absolute imports/aliases (see jsconfig.json)
 - Changes to file/folder structure
+
+## Getting started
+
+- Clone the repo or use the template function on GitHub
+- Run `npm i`
+- Create a file at the root and name it `.env.local`
+- Populate it with these variables:
+
+```
+NEXT_PUBLIC_MAGIC_PUBLISHABLE_KEY=
+MAGIC_SECRET_KEY=
+TOKEN_SECRET=
+MONGODB_URI=
+```
+
+- Get `NEXT_PUBLIC_MAGIC_PUBLISHABLE_KEY` and `MAGIC_SECRET_KEY` from your dashboard at [Magic](https://magic.link/)
+- `TOKEN_SECRET` needs to be some arbitrary value with at least 32 characters
+- `MONGODB_URI` is the connection to your database
+- `npm run dev` 🚀
