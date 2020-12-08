@@ -1,5 +1,5 @@
 import Iron from '@hapi/iron';
-import { getTokenCookie } from './auth-cookies';
+import { getTokenCookie } from '@auth/auth-cookies';
 
 // Use an environment variable here instead of a hardcoded value for production
 const TOKEN_SECRET = process.env.TOKEN_SECRET;

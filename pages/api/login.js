@@ -1,6 +1,6 @@
-import { magic } from 'auth/magic';
-import { encryptSession } from 'auth/iron';
-import { setTokenCookie } from 'auth/auth-cookies';
+import { magic } from '@auth/magic';
+import { encryptSession } from '@auth/iron';
+import { setTokenCookie } from '@auth/auth-cookies';
 
 export default async function login(req, res) {
   try {
