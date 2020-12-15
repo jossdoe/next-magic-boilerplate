@@ -6,7 +6,7 @@ Additions in this template:
 
 - MongoDB set-up with mongoose
 - Styled Components
-- Optimized Context-pattern with useReducer included
+- Optimized Context-pattern included
 - Absolute imports/aliases (see jsconfig.json)
 - Changes to file/folder structure
 
