@@ -2,13 +2,16 @@ import { useUser } from '@auth/hooks';
 import Layout from '@components/Layout';
 import dbConnect from '@utils/dbConnect';
 import Item from '@models/Item';
+import { useSetColormode } from '@context/Colormode';
 
 const Profile = ({ items }) => {
   const user = useUser({ redirectTo: '/login' });
+  const toggleColormode = useSetColormode();
 
   return (
     <Layout>
       <h1>Profile</h1>
+      <button onClick={() => toggleColormode()}>Toggle Colormode</button>
       {user && (
         <>
           <p>Your session:</p>

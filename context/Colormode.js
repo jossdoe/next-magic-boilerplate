@@ -19,4 +19,4 @@ export const ColormodeProvider = ({ children }) => {
   );
 };
 
-export const useSetColormode = () => useContext(CounterDispatchContext);
+export const useSetColormode = () => useContext(ColormodeSetContext);
